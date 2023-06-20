@@ -1,0 +1,75 @@
+https://www.freecodecamp.org/korean/news/htmle-oebu-css-seutail-siteureul-jeogyonghaneun-bangbeob/
+
+javascript is very flexible
+javaScript is very flexible
+flexible == dangerous
+fetch() API 통신방법임. 근데 인터넷익스플로어에서 작동안함. 그외에 크롬등 다됨
+HTML과 마찬가지로 XML는 데이터를 표현할 수 있다.
+AJAX(Asynchronous JavaScript And XML) XHR(XMLHttpRequest)
+서버와 통신하기위해서, XMLHttpRequest 또는 fetch() API를 사용해서 서버와 클라이언트와 통신가능
+XML은 파일크기도 커지고 가독성이 안좋아서 요즘은 JSON으로 다 쓴다.
+JSON은 데이터 포멧이다. 
+JS에서 오브젝트는 키와 밸류로 이루어저 있음. Object{key : value}
+JSON도 똑같이 키와 밸류로 이루어저 있다.
+JSON은 서버와 통신 하지 않아도, 오브젝트로 파일 시스템에 저장할때도 데이터타입으로 많이 사용함
+
+JSON (걍 json을 사용하자)
+simplest data interchange format 데이터를 주고받을때 주고받는 포멧
+lightweight text-based structure 텍스트 기반으로 변환됨 가벼움
+easy to read 읽기 쉬움
+key-value pairs 키워 밸류 쌍
+used for serialization and transmission of data between the network the network connection 직렬화 데이터전송에 쓰임
+independnet programming language and platform 언어나 플랫폼에 상관 없이 사용가능
+
+'use strict';   // use stric는 말도 안되는 언어사용을 막아준다.
+
+
+//   `${변수이름}.jpg`
+//  ``이거를 백틱이라고 함
+ 
+//바뀌는거 let
+//안바뀌는거 const
+
+css와 js는 html에 연결하는 방식이 다르다.
+
+css는 <link href = "파일경로", rel = "stylesheet"> 방식으로 연결
+js는  <script src = "경로.js"></script> 방식으로 연결
+보통 <head> 헤드사이 공간에 작성한다.  </head>
+
+.background{   <- .name{} 이렇게 정의 하는데 name의 타입이 class이다. 
+                   html에서 태그안에 <body  class = "background"> 이렇게 선언함
+        height: 100vh;
+        background-image: url("./asset/img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        }
+  
+
+// html은 DOM Tree 구조이다.
+// document가 최상위 element이다.
+// DOM 이란, Document Object Model 이다.
+// DOM.API는 
+
+//id를 찾으려면, 
+ getElementById()
+
+querySelector는 ID, 태그, class 모두 가지고 올 수 있음
+"태그" , "#ID", ".class" 단 안에 인자값방식이 달라짐.
+ document.querySelector() 을 해야함. 
+ document.querySelector("div")  html에서 젤 위에 div를 찾아줌
+ document.querySelector("a") html에서 젤 위에 a를 찾아줌
+ document.querySelector("특정ID값") 그냥 ID값 입력하면, null임
+ document.querySelector("#ID값") ID를 가지고 오고 싶으면, 앞에#를 붙혀라
+ document.querySelector(".class값") 클래스를 가지고 오고 싶으면, 앞에 .을 붙혀라
+
+ vh 라는 단위는 Viewport Height의 약자 입니다.
+ 즉 유동성 있는 단위로 보통 지정한 영역의 세로 사이즈에
+ 알맞게 이미지를 꽉차게 하려면 100vh를 입력하시면 됩니다.
+ vh 말고도 가로로 표현하려면 vw (Viewport Width) 를 사용하시면 됩니다.
+
+object -> serialize -> string 
+object를 어떻게 직렬화 serialize해서 string으로 변환하는지
+
+string을 어떻게 object로 변환할 것인지 이것을 코딩으로 해봐야한다.
+string -> deserialize  -> object
