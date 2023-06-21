@@ -2,7 +2,7 @@
 
 console.log('Hello World');
 
-var images = [
+const images = [
     "./asset/img.jpg",
     "./asset/img2.jpg",
     "./asset/img3.jpg"
