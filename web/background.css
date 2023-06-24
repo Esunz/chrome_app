@@ -34,9 +34,30 @@ button:hover{
         transition: 0.5s;
         }
 
+input::placeholder {
+        left: 20px;
+        color: #cccccc;
+        }
+
+.SearchInput {
+        width: 450px;
+        height: 45px;
+        background-color: rgba(132, 128, 141, 60%);
+        color: white;  
+        font-weight: bold;
+        font-size: 16px;
+        font-family:sans-serif;
+        border-radius: 18px;
+        border: none;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        transition: 0.5s;
+
+}
 ul, li {
         
-       
         list-style: none;
         position: absolute;
         top: 66%;
