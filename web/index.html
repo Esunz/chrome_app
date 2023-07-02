@@ -15,6 +15,64 @@
   <!-- <button class="SearchButton">검색어를 입력해주세요</button> -->
   <input class="SearchInput" type="text" placeholder="검색어를 입력해주세요">
 
+  <div class="container">
+  
+    <div class="current-info">
+  
+      <div class="date-container">
+        <div class="time" id="time">12 : 30 <span id="am-pm">PM</span></div>
+
+      <div class="date" id="date">
+        Monday, 24 May
+      </div>
+
+      <div class="other" id="current-weather-itmes">
+        
+        <div class="weather-item">
+          <p>Humidity</p>
+          <p>95.2%</p>
+        </div>
+        
+        <div class="weather-item">
+          <p>Pressure</p>
+          <p>121</p>
+        </div>
+        
+        <div class="weather-item">
+          <p>WindSpeed</p>
+          <p>222</p>
+        </div>
+      
+      </div>
+  </div>
+   
+
+    <div class="place-container">
+      <div class="time-zone" id="time-zone">Asia/East</div>
+      <div id="country" class="country">Korea</div>
+    </div>
+  </div>
+
+  <div class="future-forecast">
+    <div class="today" id="current-temp">
+      <img src="" alt="weather icon" class="w-icon">
+      <div class="day">Monday</div>
+      <div class="temp">Night - 25.6&#176; C</div>
+      <div class="temp">Day - 35.6&#176; C</div>
+    </div>
+  </div>
+
+    <div class="future-forecast", id="weather">
+      <div class="today" id="current-temp">
+        <img src="" alt="weather icon" class="w-icon">
+        <div class="day">Monday</div>
+        <div class="temp">Night - 25.6&#176; C</div>
+        <div class="temp">Day - 35.6&#176; C</div>
+      </div>
+    </div>
+  </div>
+
+
  <div>
   <ul class="list_wrap">
 
@@ -52,7 +110,12 @@
         <img class="logo", src="/asset/img.jpg" alt="웹사이트">
       </a>
     </figure>
-   
+
+    
+    <div class="weather">
+
+      
+    </div>
 
   </ul>
 
@@ -60,7 +123,7 @@
  </div>
 
   <script src="basic.js" ></script>
-
+  <script src="weather.js"></script>
 </body>
 
 </html>
